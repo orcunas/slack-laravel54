@@ -43,6 +43,6 @@ class ServiceProviderLaravel54 extends \Illuminate\Support\ServiceProvider
             );
         });
 
-        $this->app->bind(Client::class, 'orcunas.slack');
+        //$this->app->bind(Client::class, 'orcunas.slack');
     }
 }
