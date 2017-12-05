@@ -1,0 +1,23 @@
+{
+    "name": "orcunas/slack-laravel54",
+    "description": "Slack integration for laravel 5.4. It's basically a wrapper for maknz/slack-laravel",
+    "type": "composer",
+    "keywords": ["slack", "laravel", "laravel54"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Orcun As",
+            "email": "contact@orcunas.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "maknz/slack": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maknz\\Slack\\Laravel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
