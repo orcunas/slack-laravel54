@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Maknz\\Slack\\Laravel\\": "src/"
+            "OrcunAS\\Slack\\Laravel\\": "src/"
         }
     },
     "minimum-stability": "dev"
