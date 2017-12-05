@@ -18,7 +18,7 @@ Then [create an incoming webhook](https://my.slack.com/services/new/incoming-web
 
 ## Laravel 5
 
-Add the `Maknz\Slack\Laravel\ServiceProvider` provider to the `providers` array in `config/app.php`:
+Add the `OrcunAS\Slack\Laravel\ServiceProvider` provider to the `providers` array in `config/app.php`:
 
 ```php
 'providers' => [

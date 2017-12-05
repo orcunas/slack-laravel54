@@ -18,6 +18,5 @@
         "psr-4": {
             "Maknz\\Slack\\Laravel\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
