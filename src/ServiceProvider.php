@@ -72,6 +72,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function provides()
     {
-        return ['orcunas.slack'];
+        return ['slack'];
     }
 }

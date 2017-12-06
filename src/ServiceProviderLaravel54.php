@@ -26,7 +26,7 @@ class ServiceProviderLaravel54 extends \Illuminate\Support\ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__.'/config/config.php', 'slack');
 
-        $this->app->singleton(function ($app) {
+        $this->app->singleton('slack', function ($app) {
             return new Client(
                 config('slack.endpoint'),
                 [
@@ -42,7 +42,5 @@ class ServiceProviderLaravel54 extends \Illuminate\Support\ServiceProvider
                 new Guzzle
             );
         });
-
-        //$this->app->bind(Client::class, 'orcunas.slack');
     }
 }
