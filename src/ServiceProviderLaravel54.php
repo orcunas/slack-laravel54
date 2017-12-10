@@ -26,7 +26,7 @@ class ServiceProviderLaravel54 extends \Illuminate\Support\ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__.'/config/config.php', 'slack');
 
-        $this->app->singleton('slack', function ($app) {
+        $this->app->singleton('slack', function () {
             return new Client(
                 config('slack.endpoint'),
                 [
